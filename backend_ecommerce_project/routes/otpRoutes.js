@@ -8,4 +8,4 @@ const otpSchema = new mongoose.Schema({
 
 const Otp = mongoose.model("Otp", otpSchema);
 
-export default Otp; // ✅ ES Module export
+export default Otp; // 

@@ -30,9 +30,9 @@ const products = [
 try {
   await Product.deleteMany();
   const created = await Product.insertMany(products);
-  console.log("✅ Products seeded:", created);
+  console.log(" Products seeded:", created);
   process.exit();
 } catch (err) {
-  console.error("❌ Error seeding products:", err);
+  console.error(" Error seeding products:", err);
   process.exit(1);
 }
